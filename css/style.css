@@ -1,0 +1,119 @@
+html { 
+	color: #ffffff;
+} 
+
+body { 
+	background-image:url('images/game-of-thrones-bg.png');
+	background-repeat: no-repeat;
+	background-color: #000000;
+	font-family: 'Happy Monkey', cursive;
+	color: #ffffff;
+}
+
+header {
+	opacity: 1.0;
+} 
+
+#nav { 
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	font-family: 'Original Surfer', cursive;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #069;
+	border-right: 1px solid #ccc;
+}
+
+#nav li a:hover {
+	color: #c00;
+}
+
+h1 { 
+	text-shadow: red 0.1em 0.1em 0.2em
+}
+
+#images {
+	float: left;
+}
+
+#wrapper {
+	width: 100%;
+}
+
+#first {
+	width: 300px;
+	float: left;
+	padding: 20px;
+}
+
+#second {
+	width: 300px;
+	float: left;
+	padding: 20px;
+}
+
+#third {
+	width: 300px;
+	float: left;
+}
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.blue {
+	color: #d9eef7;
+	border: solid 1px #0076a3;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+}
+
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+}
+
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear,left top, left bottom, from(#0078a5), to(#00adee));
+}
+
+#footer {
+	clear: both;
+}
+

@@ -1,5 +1,6 @@
 html { 
 	color: #ffffff;
+	font-size: 1em;
 } 
 
 body { 
@@ -21,8 +22,8 @@ header {
 	padding: 0;
 	list-style: none;
 	background-color: #f2f2f2;
-	border-bottom: 1px solid #ccc;
-	border-top: 1px solid #ccc;
+	border-bottom: 0.001em solid #ccc;
+	border-top: 0.001em solid #ccc;
 	font-family: 'Original Surfer', cursive;
 }
 
@@ -32,11 +33,11 @@ header {
 
 #nav li a {
 	display: block;
-	padding: 8px 15px;
+	padding: 0.009em 0.167em;
 	text-decoration: none;
 	font-weight: bold;
 	color: #069;
-	border-right: 1px solid #ccc;
+	border-right: 0.001em solid #ccc;
 }
 
 #nav li a:hover {
@@ -44,11 +45,22 @@ header {
 }
 
 h1 { 
+	font-weight: normal;
+	font-size: 1.5em;
 	text-shadow: red 0.1em 0.1em 0.2em
 }
 
-#images {
+h2 {
+	font-weight: normal;
+	font-size: 1em;
+}
+
+#img {
 	float: left;
+}
+
+#article {
+	width: 1.000em;
 }
 
 #wrapper {
@@ -117,3 +129,42 @@ h1 {
 	clear: both;
 }
 
+@media screen and (max-width: 700px) {
+	#header {
+		height: auto;
+		float: none;
+	}
+	#nav {
+		width: auto;
+		float: none;
+	}
+	#img {
+		max-width: auto;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	#header {
+		height: auto;
+		float: none;
+	}
+	#nav {
+		width: auto;
+		float: none;
+	}
+	#img {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	#header {
+		height: auto;
+		float: none;
+	}
+	#img {
+		max-width: auto;
+		height: auto;
+	}
+}
